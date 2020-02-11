@@ -1,0 +1,64 @@
+body{
+    background-image: url(../images/ignasi_pattern_s.png);
+}
+
+header{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    height:70px;
+    width: 960px;
+}
+
+.name-box {
+    background-color: #4aaaa5;
+
+}
+.links{
+    float: right;
+    position: relative;
+    bottom: 60px;
+}
+.about{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+}
+.portfolio{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container {
+    height:70px;
+    padding-top: 0px;
+    border-top: 25px;
+
+}
+.text-box {
+    padding-top: 20px;
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:100px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.paragraph-1 {
+    float: left;
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    position: sticky;
+    text-align: center;
+    background-color: #666666;
+    height:50px;
+}
