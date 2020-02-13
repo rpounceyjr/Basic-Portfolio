@@ -14,7 +14,7 @@ header{
     padding-right: 25px;
     box-sizing: border-box;
 }
-.about-me {
+.text-box-header {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #4aaaa5;
     background-color: #ffffff;
@@ -64,7 +64,6 @@ img {
     float: left;
     padding-right: 25px;
     padding-top: 20px;
-    padding-bottom: 25px;
 }
 .text-box {
     padding-top: 20px;
@@ -78,8 +77,6 @@ img {
     padding-right: 25px;
     padding-bottom: 25px;
     box-sizing: border-box;
-}
-p {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -90,4 +87,15 @@ footer{
     color: #777777;
     height:40px;
     padding-top:40px;
+    position:sticky;
+}
+input{
+    line-height: 200%;
+    width:908px;
+}
+
+textarea {
+    line-height: 200%;
+    height: 200px;
+    width: 908px;
 }
