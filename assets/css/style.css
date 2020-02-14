@@ -60,7 +60,7 @@ header{
     border-bottom-style: solid;
     border-bottom: 2px, grey;
 }
-img {
+.bio-picture {
     float: left;
     padding-right: 25px;
     padding-top: 20px;
@@ -87,7 +87,7 @@ footer{
     color: #777777;
     height:40px;
     padding-top:40px;
-    position:sticky;
+
 }
 input{
     line-height: 200%;
@@ -99,3 +99,47 @@ textarea {
     height: 200px;
     width: 908px;
 }
+#portfolio-break {
+    margin-bottom: 25px;
+}
+
+.portfolio-pics {
+    width: 30%;
+    height:250px;
+    
+}
+#pug-pic {
+    /* padding-right: 12.5px;
+    padding-bottom: 25px; */
+
+}
+
+#woman-pic {
+    /* padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-bottom: 25px; */
+}
+
+#swirl-pic {
+    /* /* padding-top: 25px;
+    padding-right: 12.5px;
+    padding-bottom: 25px; */
+}
+#city-night-pic {
+    /* /* padding: 12.5px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+}
+#city-freeway-pic {
+    /* padding-right: 12.5px;
+    padding-top: 25px; */
+}
+
+.portfolio-box-header {
+    background-color: #4aaaa5;
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    bottom: 10px;
+}
+
