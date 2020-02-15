@@ -42,10 +42,19 @@ header{
     color: white;
 }
 .links{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
     position: relative;
     bottom: 80px;
     color:#777777;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+a:visited{
+    color: #4aaaa5;
+
 }
 .about{
     padding-left: 5px;
@@ -81,6 +90,24 @@ header{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
+input{
+    outline-color: #4aaaa5;
+}
+button{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+}
+button:hover{
+    box-shadow: 2px 2px grey;
+}
+button:focus{
+    outline-color: #4aaaa5;
+}
+
 footer{
     border-top: 8px solid #4aaaa5;
     text-align: center;
@@ -88,6 +115,7 @@ footer{
     color: #777777;
     height:40px;
     padding-top:40px;
+    position:sticky;
 
 }
 input{
@@ -100,6 +128,10 @@ textarea {
     height: 200px;
     width: 908px;
 }
+textarea:focus{
+    outline-color:#4aaaa5;
+}
+
 #portfolio-break {
     margin-bottom: 25px;
 }
@@ -109,11 +141,13 @@ textarea {
     height:250px;
 }
 .banner {
-   
-    position: relative;
+   position: relative;
 }
 .banner-child{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     background-color: #4aaaa5;
+    color: #ffffff;
     width: 273px;
     height: 52px;
     padding-top: 18px;
@@ -136,7 +170,7 @@ textarea {
 }
 .woman-banner {
     bottom:310px;
-    left: 317px;
+    left: 316px;
 }
 
 #swirl-pic {
@@ -146,21 +180,21 @@ textarea {
 }
 .swirl-banner {
     bottom: 310px;
-    left: 634px;
+    left: 633px;
 }
 #city-night-pic {
     margin-right: 12.5px;
 }
 .city-night-banner {
-    bottom:25px;
+    bottom:22px;
 }
 #city-freeway-pic {
     margin-left: 27px;
     margin-right: 27px;
 }
 .city-freeway-banner {
-    bottom: 25px;
-    left: 317px;
+    bottom: 24px;
+    left: 316px;
 }
 
 
